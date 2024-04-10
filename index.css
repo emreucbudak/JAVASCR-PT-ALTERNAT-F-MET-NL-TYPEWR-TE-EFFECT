@@ -1,0 +1,26 @@
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap";
+
+.animation_text h1 {
+font-family:"Poppins",Sans-serif;
+text-align:center;
+color:#373150;
+font-size:60px;
+font-weight:500;
+line-height:70px;
+}
+
+.animation_text h1 span {
+color:#56A274
+}
+
+@media(max-width:768px) {
+.animation_text h1 {
+font-size:30px
+}
+} 
+#deneme {
+    color: #56A274;
+}
+#deneme::after {
+    content: "|";
+}
